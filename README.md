@@ -42,6 +42,7 @@ then you will see the bandwidth in the status line: `↓3.5MiB/s • ↑134KiB/s
 ## Customization
 The plugin could be customized with:
 * `set-option -g @tmux-network-bandwidth-padding 12` - Set up the fixed padding for the output.
+* `set-option -g @tmux-network-bandwidth-units si` - Set up the units which are used to display speed.
 
 ## Other plugins
 * [tmux-spotify](https://github.com/xamut/tmux-spotify)
